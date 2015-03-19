@@ -24,3 +24,26 @@
   @include opacity(1);
   }
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 170px;
+  width: 100%;
+  background-color: #444;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 10%;
+    vertical-align: top;
+  }
+
+  li {
+    color: #ccc;
+  }
+
+  li:hover {
+    color: #efefef;
+  }
+}
